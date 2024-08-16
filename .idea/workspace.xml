@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed889509-e7a6-4279-b4a5-9d9d926e7d29" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONFIG.py" beforeDir="false" afterPath="$PROJECT_DIR$/CONFIG.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtensiveForm.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExtensiveForm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFSP_Sampling/syncPCFR.py" beforeDir="false" afterPath="$PROJECT_DIR$/GFSP_Sampling/syncPCFR.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,6 +224,7 @@
       <workItem from="1723120604463" duration="223000" />
       <workItem from="1723282015190" duration="10000" />
       <workItem from="1723550515742" duration="9000" />
+      <workItem from="1723773449561" duration="31000" />
     </task>
     <servers />
   </component>

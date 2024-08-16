@@ -40,7 +40,7 @@ if __name__ == '__main__':
     logdir = 'logGFSPSampling'
     game_name = 'Leduc'
     is_show_policy = False
-    prior_state_num = 5
+    prior_state_num = 3
 
     game_config = {
         'game_name'      : game_name,
@@ -67,7 +67,7 @@ if __name__ == '__main__':
     # log_mode = 'normal'
     log_mode = 'exponential'
 
-    total_train_constraint = 1000
+    total_train_constraint = 100000
     log_interval = 2
     nun_of_train_repetitions = 1
     n_jobs = 1  #
