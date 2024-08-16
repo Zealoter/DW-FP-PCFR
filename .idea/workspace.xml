@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed889509-e7a6-4279-b4a5-9d9d926e7d29" name="更改" comment="" />
+    <list default="true" id="ed889509-e7a6-4279-b4a5-9d9d926e7d29" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONFIG.py" beforeDir="false" afterPath="$PROJECT_DIR$/CONFIG.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtensiveForm.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExtensiveForm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GFSP_Sampling/syncPCFR.py" beforeDir="false" afterPath="$PROJECT_DIR$/GFSP_Sampling/syncPCFR.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +41,8 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.CONFIG.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ExtensiveForm.executor&quot;: &quot;Run&quot;,
     &quot;Python.ExtensiveFormTrainer.executor&quot;: &quot;Run&quot;,
     &quot;Python.Trainer.executor&quot;: &quot;Run&quot;,
     &quot;Python.convergence_rate.executor&quot;: &quot;Run&quot;,
@@ -42,6 +52,7 @@
     &quot;Python.twoPlayerNormalForm.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/juqi/Desktop/居奇综合/all_of_code/DW-FP-PCFR/draw/data_backup/extensiveform&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -66,7 +77,30 @@
       <recent name="$PROJECT_DIR$/draw/data_backup/10action" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.draw martix">
+  <component name="RunManager" selected="Python.ExtensiveForm">
+    <configuration name="CONFIG" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DW-FP-PCFR" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CONFIG.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ExtensiveForm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DW-FP-PCFR" />
       <option name="ENV_FILES" value="" />
@@ -82,29 +116,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ExtensiveForm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="NormalForm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DW-FP-PCFR" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NormalForm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,6 +195,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ExtensiveForm" />
+        <item itemvalue="Python.CONFIG" />
         <item itemvalue="Python.draw martix" />
         <item itemvalue="Python.drawhand" />
         <item itemvalue="Python.draw_DW_itr" />
@@ -193,7 +206,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
       </set>
     </attachedChunks>
   </component>
@@ -211,6 +225,10 @@
       <workItem from="1706797515540" duration="6580000" />
       <workItem from="1708350608504" duration="1578000" />
       <workItem from="1709621842501" duration="1381000" />
+      <workItem from="1723113866527" duration="1967000" />
+      <workItem from="1723120604463" duration="223000" />
+      <workItem from="1723282015190" duration="10000" />
+      <workItem from="1723550515742" duration="9000" />
     </task>
     <servers />
   </component>
@@ -251,11 +269,13 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DW_FP_PCFR$ExtensiveFormTrainer.coverage" NAME="ExtensiveFormTrainer 覆盖结果" MODIFIED="1708350622746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DW_FP_PCFR$Trainer.coverage" NAME="ExtensiveFormTrainer 覆盖结果" MODIFIED="1706691224754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DW_FP_PCFR$ExtensiveForm.coverage" NAME="ExtensiveForm 覆盖结果" MODIFIED="1723114743676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DW_FP_PCFR$twoPlayerNormalForm.coverage" NAME="twoPlayerNormalForm 覆盖结果" MODIFIED="1706864643178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DW_FP_PCFR$draw_martix.coverage" NAME="draw martix 覆盖结果" MODIFIED="1706812309444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/draw" />
-    <SUITE FILE_PATH="coverage/DW_FP_PCFR$convergence_rate.coverage" NAME="convergence_rate 覆盖结果" MODIFIED="1706786462908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/draw" />
-    <SUITE FILE_PATH="coverage/DW_FP_PCFR$drawhand.coverage" NAME="drawhand 覆盖结果" MODIFIED="1706810344446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/draw" />
     <SUITE FILE_PATH="coverage/DW_FP_PCFR$draw_DW_itr.coverage" NAME="draw_DW_itr 覆盖结果" MODIFIED="1706787408214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/draw" />
+    <SUITE FILE_PATH="coverage/DW_FP_PCFR$convergence_rate.coverage" NAME="convergence_rate 覆盖结果" MODIFIED="1706786462908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/draw" />
+    <SUITE FILE_PATH="coverage/DW_FP_PCFR$draw_martix.coverage" NAME="draw martix 覆盖结果" MODIFIED="1706812309444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/draw" />
+    <SUITE FILE_PATH="coverage/DW_FP_PCFR$CONFIG.coverage" NAME="CONFIG 覆盖结果" MODIFIED="1723113892225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DW_FP_PCFR$drawhand.coverage" NAME="drawhand 覆盖结果" MODIFIED="1706810344446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/draw" />
+    <SUITE FILE_PATH="coverage/DW_FP_PCFR$Trainer.coverage" NAME="ExtensiveFormTrainer 覆盖结果" MODIFIED="1706691224754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

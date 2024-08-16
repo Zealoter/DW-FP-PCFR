@@ -38,9 +38,9 @@ if __name__ == '__main__':
     np.set_printoptions(formatter={'float': '{: 0.6f}'.format}, suppress=True)
 
     logdir = 'logGFSPSampling'
-    game_name = 'Kuhn'
+    game_name = 'Leduc'
     is_show_policy = False
-    prior_state_num = 3
+    prior_state_num = 5
 
     game_config = {
         'game_name'      : game_name,

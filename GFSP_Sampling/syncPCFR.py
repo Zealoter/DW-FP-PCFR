@@ -11,19 +11,25 @@ class syncPCFRSolver(PCFRSolver):
 
     def all_state_regret_matching_strategy(self):
         self.last_weight = 10000000000000000
-        for info in self.dynamic_opp_list:
-            q_max = np.max(self.game.imm_regret[info])
-            q_gap = q_max - self.game.imm_regret[info]
-            q_chasing = self.dynamic_v[info] - self.dynamic_v[info][self.game.now_policy[info]]
-            if np.max(q_chasing) == 0:
-                continue
-            chasing_ge_zero = np.where(q_chasing > 0.0)
-            tmp_weight = q_gap[chasing_ge_zero] // q_chasing[chasing_ge_zero] + 1
-            self.last_weight = min(np.min(tmp_weight), self.last_weight)
 
-            if self.last_weight <= 1:
-                self.last_weight = 1
-                break
+        if self.itr_num<=1:
+            self.last_weight
+        else:
+            for info in self.dynamic_opp_list:
+                q_max = np.max(self.game.imm_regret[info])
+                q_gap = q_max - self.game.imm_regret[info]
+                q_chasing = self.dynamic_v[info] - self.dynamic_v[info][self.game.now_policy[info]]
+                if np.max(q_chasing) == 0:
+                    continue
+                chasing_ge_zero = np.where(q_chasing > 0.0)
+                tmp_weight = q_gap[chasing_ge_zero] / q_chasing[chasing_ge_zero] + 0.000000001
+                self.last_weight = min(np.min(tmp_weight), self.last_weight)
+
+                # if self.last_weight <= 1:
+                #     self.last_weight = 1
+                #     break
+
+
 
         for info in self.dynamic_now_list:
             self.game.w_his_policy[info][self.game.now_policy[info]] += self.last_weight

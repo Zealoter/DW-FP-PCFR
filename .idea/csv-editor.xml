@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CsvFileAttributes">
+    <option name="attributeMap">
+      <map>
+        <entry key="/logGFSPSampling/3_Kuhn_2024_08_08_18_47_20/DW-PCFR/0_2024_08_08_18_47_21/epsilon.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/logGFSPSampling/3_Kuhn_2024_08_08_18_47_20/DW-PCFR/0_2024_08_08_18_47_21/tmp.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/logGFSPSampling/3_Kuhn_2024_08_08_18_47_20/DW-PCFR/0_2024_08_08_18_47_21/weight_list.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
