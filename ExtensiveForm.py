@@ -67,10 +67,10 @@ if __name__ == '__main__':
     # log_mode = 'normal'
     log_mode = 'exponential'
 
-    total_train_constraint = 100000
+    total_train_constraint = 10000
     log_interval = 2
-    nun_of_train_repetitions = 1
-    n_jobs = 1  #
+    nun_of_train_repetitions = 10
+    n_jobs = 10  #
 
     total_exp_name = str(prior_state_num) + '_' + game_name + '_' + time.strftime('%Y_%m_%d_%H_%M_%S',
                                                                                   time.localtime(time.time()))

@@ -224,7 +224,7 @@
       <workItem from="1723120604463" duration="223000" />
       <workItem from="1723282015190" duration="10000" />
       <workItem from="1723550515742" duration="9000" />
-      <workItem from="1723773449561" duration="31000" />
+      <workItem from="1723773449561" duration="1929000" />
     </task>
     <servers />
   </component>
@@ -265,7 +265,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DW_FP_PCFR$ExtensiveFormTrainer.coverage" NAME="ExtensiveFormTrainer 覆盖结果" MODIFIED="1708350622746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DW_FP_PCFR$ExtensiveForm.coverage" NAME="ExtensiveForm 覆盖结果" MODIFIED="1723114743676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DW_FP_PCFR$ExtensiveForm.coverage" NAME="ExtensiveForm 覆盖结果" MODIFIED="1723775207214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DW_FP_PCFR$twoPlayerNormalForm.coverage" NAME="twoPlayerNormalForm 覆盖结果" MODIFIED="1706864643178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DW_FP_PCFR$draw_DW_itr.coverage" NAME="draw_DW_itr 覆盖结果" MODIFIED="1706787408214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/draw" />
     <SUITE FILE_PATH="coverage/DW_FP_PCFR$convergence_rate.coverage" NAME="convergence_rate 覆盖结果" MODIFIED="1706786462908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/draw" />
