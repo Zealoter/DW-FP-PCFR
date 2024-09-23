@@ -38,7 +38,7 @@ if __name__ == '__main__':
     np.set_printoptions(formatter={'float': '{: 0.6f}'.format}, suppress=True)
 
     logdir = 'logGFSPSampling'
-    game_name = 'Leduc'
+    game_name = 'Kuhn'
     is_show_policy = False
     prior_state_num = 3
 
@@ -109,7 +109,7 @@ if __name__ == '__main__':
     fig_title = str(prior_state_num) + '_' + game_name
 
     plt.subplot(1, 2, 1)
-    draw.convergence_rate .plt_perfect_game_convergence_inline(
+    draw.convergence_rate.plt_perfect_game_convergence_inline(
         fig_title,
         logdir + '/' + total_exp_name,
         is_x_log=False,
@@ -118,7 +118,7 @@ if __name__ == '__main__':
         log_interval_mode='itr'
     )
     plt.subplot(1, 2, 2)
-    draw.convergence_rate .plt_perfect_game_convergence_inline(
+    draw.convergence_rate.plt_perfect_game_convergence_inline(
         fig_title,
         logdir + '/' + total_exp_name,
         is_x_log=False,
